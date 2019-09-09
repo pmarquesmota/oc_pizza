@@ -1,0 +1,58 @@
+Cas n°1
+
+Nom : Consulter catalogue produit (package « Gestion des achats »)
+Acteur(s) : Utilisateur (client ou visiteur)
+Description : La consultation du catalogue doit être possible pour un client ainsi que pour les commerciaux de l’entreprise.
+Auteur : Paul Marques Mota
+Date(s) : 9/9/19 (première rédaction)
+
+Pré-conditions : L’utilisateur doit être authentifié en tant que client
+   (Cas d’utilisation « S’authentifier » – package « Gestion des achats »)
+Démarrage : L’utilisateur a demandé la page « Consultation du catalogue »
+
+DESCRIPTION
+
+Le scénario nominal :
+
+1. Le système affiche une page contenant la liste les catégories de produits. 
+2. L’utilisateur sélectionne une des catégories.
+3. Le système recherche les produits qui appartiennent à cette catégorie.
+4. Le système affiche une description et une photo pour chaque produit trouvé.
+5. L’utilisateur peut sélectionner un produit parmi ceux affichés.
+6. Le système affiche les informations détaillées du produit choisi. 
+7. L’utilisateur peut ensuite quitter cette description détaillée.
+8. Le système retourne à l’affichage des produits de la catégorie (retour à l’étape 4)
+
+Les scénarios alternatifs
+
+2.a L’utilisateur décide de quitter la consultation de la catégorie de produits choisie. 
+2.b L’utilisateur décide de quitter la consultation du catalogue. 
+5.a L’utilisateur décider de quitter la consultation de la catégorie de produits choisie.
+5.b L’utilisateur décide de quitter la consultation du catalogue.
+7.a L’utilisateur décide de quitter la consultation de la catégorie de produits choisie.
+7.b L’utilisateur décide de quitter la consultation du catalogue.
+
+Fin : Scénario nominal : aux étapes 2, 5 ou 7, sur décision de l’utilisateur
+
+Post-conditions : Aucun
+
+COMPLEMENTS
+
+Ergonomie 
+
+L’affichage des produits d’une catégorie devra se faire par groupe de 15 produits. Toutefois, afin d’éviter à l’utilisateur d’avoir à demander trop de pages, il devra être possible de choisir des pages avec 30, 45 ou 60 produits.
+
+Performance attendue 
+
+La recherche des produits, après sélection de la catégorie, doit se faire de façon à afficher la page des produits en moins de 10 secondes.
+
+Problèmes non résolus 
+
+Nous avons fait la description basée sur l’information que les produits appartiennent à une catégorie. Est-ce qu’il existe des sous-catégories ?
+
+Si tel est le cas, la description devra être revue.
+
+Est-ce que la consultation du catalogue doit être possible uniquement par catégorie ou est-ce qu’on doit prévoir d’autres critères de recherche de produits ?
+
+Doit-on prévoir un affichage trié sur des critères choisis par l’utilisateur (par exemple : par tranche de prix, par disponibilité, etc) ?
+
