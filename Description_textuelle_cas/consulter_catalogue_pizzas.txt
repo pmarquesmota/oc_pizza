@@ -2,12 +2,11 @@ Cas n°1
 
 Nom : Consulter catalogue produit (package « Gestion des achats »)
 Acteur(s) : Utilisateur (client ou visiteur)
-Description : La consultation du catalogue doit être possible pour un client ainsi que pour les commerciaux de l’entreprise.
+Description : La consultation du catalogue doit être possible pour un client
 Auteur : Paul Marques Mota
 Date(s) : 9/9/19 (première rédaction)
 
-Pré-conditions : L’utilisateur doit être authentifié en tant que client
-   (Cas d’utilisation « S’authentifier » – package « Gestion des achats »)
+Pré-conditions : aucune
 Démarrage : L’utilisateur a demandé la page « Consultation du catalogue »
 
 DESCRIPTION
