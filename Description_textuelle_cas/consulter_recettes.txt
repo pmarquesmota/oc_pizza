@@ -1,0 +1,52 @@
+Cas n°1
+
+Nom : Consulter les recettes (package « Gestion des achats »)
+Acteur(s) : Pizzaiolo
+Description : Le pizzaiolo doit pouvoir consulter une recette de la pizza
+Auteur : Paul Marques Mota
+Date(s) : 14/10/19 (première rédaction)
+
+Pré-conditions : authentification
+Démarrage : Le pizzaiolo a demandé la page « Consulter une recette »
+
+DESCRIPTION
+
+Le scénario nominal :
+
+1. Le pizzaiolo clique sur "consulter une recette"
+2. Le système recherche la liste des pizzas et les affiche.
+3. Le pizzaiolo peut sélectionner une pizza parmi celles affichées.
+4. Le système affiche la recette de la pizza. 
+5. Le pizzaiolo peut ensuite quitter l'affichage de la recette.
+6. Le système retourne à l’affichage des pizzas (retour à l’étape 2)
+
+Les scénarios alternatifs
+
+3.a Le pizzaiolo décide de quitter la consultation des pizzas. 
+5.a Le pizzaiolo décider de quitter la consultation de la catégorie de produits choisie.
+5.b Le pizzaiolo décide de quitter la consultation du catalogue.
+
+Fin : Scénario nominal : aux étapes 3 ou 5, sur décision de l’utilisateur
+
+Post-conditions : Aucun
+
+COMPLEMENTS
+
+Ergonomie 
+
+Le système affiche la liste de toutes les pizzas
+
+Performance attendue 
+
+La recherche des produits, après sélection de la catégorie, doit se faire de façon à afficher la page des produits en moins de 10 secondes.
+
+Problèmes non résolus 
+
+Nous avons fait la description basée sur l’information que les produits appartiennent à une catégorie. Est-ce qu’il existe des sous-catégories ?
+
+Si tel est le cas, la description devra être revue.
+
+Est-ce que la consultation du catalogue doit être possible uniquement par catégorie ou est-ce qu’on doit prévoir d’autres critères de recherche de produits ?
+
+Doit-on prévoir un affichage trié sur des critères choisis par l’utilisateur (par exemple : par tranche de prix, par disponibilité, etc) ?
+
