@@ -1,0 +1,35 @@
+Cas n°1
+
+Nom : s'authentifier (package « Gestion  des achats»)
+Acteur(s) : Utilisateur (visiteur ou client)
+Description : L'utilisateur doit pouvoir s'authentifier
+Auteur : Paul Marques Mota
+Date(s) : 14/10/19 (première rédaction)
+
+Pré-conditions : 
+Démarrage : L'utilisateur à cliqué sur la page "s'authentifier"
+
+DESCRIPTION
+
+Le scénario nominal :
+
+1. L'utilisateur demande la page d'authentification
+2. Si le client possède un compte, le système demande le login
+   et le mot de passe
+3. L'utilisateur saisit le login et le mot de passe
+4. Le système vérifie les informations
+5. Si les informations ne sont pas correctes, retour à l'étape 2
+
+Les scénarios alternatifs
+
+1.a L'utilisateur décide de quitter la demande
+2.a L'utilisateur ne possède pas de compte
+3.a L'utilisateur décide de quitter la page de login
+
+Fin : Scénario nominal : à l'étape 5 si les informations sont correctes
+
+Post-conditions : l'enregistrement de la commande est annulée
+
+COMPLEMENTS
+
+Aucun

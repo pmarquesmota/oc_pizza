@@ -1,0 +1,35 @@
+Cas n°1
+
+Nom : s'enregistrer (package « Gestion  des achats»)
+Acteur(s) : Utilisateur (visiteur ou client)
+Description : L'utilisateur doit pouvoir s'enregistrer
+Auteur : Paul Marques Mota
+Date(s) : 14/10/19 (première rédaction)
+
+Pré-conditions : 
+Démarrage : L'utilisateur à cliqué sur la page "s'enregistrer"
+
+DESCRIPTION
+
+Le scénario nominal :
+
+1. L'utilisateur demande la page d'enregistrement
+2. Le système demande les informations du client
+3. L'utilisateur saisit les informations
+4. Le système vérifie que le mot de passe de confirmation est identique au
+   mot de passe
+5. Si les mots de passes diffèrent, retour à l'étape 2
+6. Le système enregistre les informations du client
+
+Les scénarios alternatifs
+
+1.a L'utilisateur décide de quitter la demande
+2.a L'utilisateur décide de quitter la demande de saisie
+
+Fin : Scénario nominal : à l'étape 6 sur décision de l'utilisateur
+
+Post-conditions : enregistrement des informations de l'utilisateur
+
+COMPLEMENTS
+
+Aucun

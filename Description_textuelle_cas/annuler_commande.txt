@@ -1,0 +1,34 @@
+Cas n°1
+
+Nom : Annuler une commande (package « Gestion  des achats»)
+Acteur(s) : Utilisateur (visiteur ou client)
+Description : L'utilisateur doit pouvoir annuler une commande
+Auteur : Paul Marques Mota
+Date(s) : 14/10/19 (première rédaction)
+
+Pré-conditions : authentification
+Démarrage : L'utilisateur à cliqué sur la page "annuler une commande"
+
+DESCRIPTION
+
+Le scénario nominal :
+
+1. Le système affiche la liste des commandes
+2. L'utilisateur selectionne une commande
+3. L'utilisateur annule la commande
+4. Le système demande une confirmation
+5. Le système supprime la commande
+
+Les scénarios alternatifs
+
+1.a L'utilisateur décide de quitter l'affichage
+2.a La commande est en cours de préparation. Le système refuse l'annulation
+4.a L'utilisateur refuse la confirmation
+
+Fin : Scénario nominal : à l'étape 5 sur décision de l’administrateur
+
+Post-conditions : l'enregistrement de la commande est annulée
+
+COMPLEMENTS
+
+Aucun
