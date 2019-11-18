@@ -1,0 +1,34 @@
+Cas n°1
+
+Nom : Pizzaiolo (package « Gestion des achats »)
+Acteur(s) : Pizzaiolo 
+Description : Le pizzaiolo gère les pizzas
+Auteur : Paul Marques Mota
+Date(s) : 7/10/19 (première rédaction)
+
+Pré-conditions : le pizzaiolo doit être authentifié 
+Démarrage : Le pizzaiolo consulte la liste des pizzas
+
+DESCRIPTION
+
+Le scénario nominal :
+
+1. Le système affiche une page contenant la liste des commandes
+2. Le pizzaiolo sélectionne une des commandes
+3. Le système affiche les informations détaillées de la commandes
+4. Si le pizzaiolo demande la recette de la pizza le système affiche la recette de la pizza
+5. Le pizzaiolo fait passer la pizza dans l'état "en cours de préparation"
+6. Le pizzaiolo prépare la pizza
+5. Le pizzaiolo fait passer la pizza dans l'état prête
+
+Les scénarios alternatifs
+
+2.a Le pizzaiolo décide de quitter l'affichage de la liste des commandes
+
+Fin : Scénario nominal : aux étapes 4, 5, sur décision de l’utilisateur
+
+Post-conditions : la pizza est dans l'état prête
+
+COMPLEMENTS
+
+Aucun
