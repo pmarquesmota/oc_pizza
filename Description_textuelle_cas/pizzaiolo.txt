@@ -17,9 +17,11 @@ Le scénario nominal :
 2. Le pizzaiolo sélectionne une des commandes
 3. Le système affiche les informations détaillées de la commandes
 4. Si le pizzaiolo demande la recette de la pizza le système affiche la recette de la pizza
-5. Le pizzaiolo fait passer la pizza dans l'état "en cours de préparation"
-6. Le pizzaiolo prépare la pizza
-5. Le pizzaiolo fait passer la pizza dans l'état prête
+5. Si l'utilisateur a commandé une pizza, on fait appel au cas d'utilisation
+   passer ou modifier une commande
+6. Le pizzaiolo fait passer la pizza dans l'état "en cours de préparation"
+7. Le pizzaiolo prépare la pizza
+8. Le pizzaiolo fait passer la pizza dans l'état prête
 
 Les scénarios alternatifs
 
