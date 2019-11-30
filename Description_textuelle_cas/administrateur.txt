@@ -1,0 +1,40 @@
+Cas n°1
+
+Nom : Administration (package « Gestion administrateur »)
+Acteur(s) : Administrateur
+Description : L'administrateur gère le site
+Auteur : Paul Marques Mota
+Date(s) : 7/10/19 (première rédaction)
+
+Démarrage : L'administrateur clique sur l'interface d'administration
+
+DESCRIPTION
+
+Le scénario nominal :
+
+1. Le système demande de s'authentifier
+2. L'administrateur entre ses identifiants
+3. Le système vérifie les identifiants
+4. Si l'administrateur clique sur "suivre les commandes passées", le système
+   affiche la liste des commandes passées
+5. Si l'administrateur clique sur "suivre les commandes en préparation",
+   le système affiche la liste des commandes dans l'état "en cours de
+   préparation"
+6. Si l'administrateur clique sur "suivre les commandes en livraison",
+   le système affiche la liste des commandes dans l'état "en cours de
+   livraison"
+7. Si l'administrateur clique sur "afficher l'état des stocks", le système
+   affiche l'état des stocks
+
+Les scénarios alternatifs
+
+2.a l'administrateur a oublié ses identifiants
+3.a les identifiants sont incorrects
+
+Fin : Scénario nominal : à l'étape 4, 5, 6, 7, sur décision de l’utilisateur
+
+Post-conditions : l'administrateur est connécté
+
+COMPLEMENTS
+
+Aucun
