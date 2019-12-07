@@ -6,27 +6,31 @@ Description : Le pizzaiolo gère les pizzas
 Auteur : Paul Marques Mota
 Date(s) : 7/10/19 (première rédaction)
 
-Pré-conditions : le pizzaiolo doit être authentifié 
+Pré-conditions : Aucune
 Démarrage : Le pizzaiolo consulte la liste des pizzas
 
 DESCRIPTION
 
 Le scénario nominal :
 
-le pizzaiolo pass une commande pour l'utilisateur
-1. Le système affiche une page contenant la liste des commandes
-2. Le pizzaiolo sélectionne une des commandes
-3. Le système affiche les informations détaillées de la commandes
-4. Si le pizzaiolo demande la recette de la pizza le système affiche la recette de la pizza
-6. Le pizzaiolo fait passer la pizza dans l'état "en cours de préparation"
-7. Le pizzaiolo prépare la pizza
-8. Le pizzaiolo fait passer la pizza dans l'état prête
+1. Le système affiche une demande de login et mot de passe
+2. Le pizzaiolo remplit ses identifiants
+3. Le système vérifie les identifiants
+4. Si l'utilisateur a commandé, le pizzaiolo passe une commande
+5. Le système affiche une page contenant la liste des commandes
+6. Le pizzaiolo sélectionne une des commandes
+7. Le système affiche les informations détaillées de la commandes
+8. Si le pizzaiolo demande la recette de la pizza le système affiche la recette de la pizza
+9. Le pizzaiolo fait passer la pizza dans l'état "en cours de préparation"
+10. Le pizzaiolo prépare la pizza
+11. Le pizzaiolo fait passer la pizza dans l'état prête
 
 Les scénarios alternatifs
 
-2.a Le pizzaiolo décide de quitter l'affichage de la liste des commandes
+2.a Les identifiants sont incorrects
+6.a Le pizzaiolo décide de quitter l'affichage de la liste des commandes
 
-Fin : Scénario nominal : aux étapes 4, 5, sur décision de l’utilisateur
+Fin : Scénario nominal : aux étapes 4, 11, sur décision de l’utilisateur
 
 Post-conditions : la pizza est dans l'état prête
 

@@ -1,0 +1,59 @@
+Cas n°1
+
+Nom : Modifier ou annuler une commande (package « Gestion des achats »)
+Acteur(s) : Utilisateur (client ou visiteur)
+Description : L'utilisateur modifie ou annule une commande
+Auteur : Paul Marques Mota
+Date(s) : 7/10/19 (première rédaction)
+
+Pré-conditions : aucune
+Démarrage : L’utilisateur a demandé la page « modifier ou annuler une commande »
+
+DESCRIPTION
+
+Le scénario nominal :
+
+1. Le système affiche une page contenant la liste des commandes
+2. L’utilisateur sélectionne une commande
+3. Si l'utilisateur clique sur annuler, le système demande confirmation et
+    annule la commande
+4. Si l'utilisateur clique sur modifier, le système demande confirmation
+5. Le système affiche le formulaire de modification
+12. L
+13. Le système valide les informations de paiement avec la banque.
+14. Si les informations sont fausses on les redemande (retour à l'étape 12)
+15. Le système retourne à l’affichage des produits de la catégorie (retour à l’étape 4)
+
+Les scénarios alternatifs
+
+2.a L’utilisateur décide de quitter la consultation de la catégorie de produits choisie. 
+2.b L’utilisateur décide de quitter la consultation du catalogue. 
+5.a L’utilisateur décider de quitter la consultation de la catégorie de produits choisie.
+5.b L’utilisateur décide de quitter la consultation du catalogue.
+7.a L’utilisateur décide de quitter la consultation de la catégorie de produits choisie.
+7.b L’utilisateur décide de quitter la consultation du catalogue.
+
+Fin : Scénario nominal : aux étapes 2, 5 ou 7, sur décision de l’utilisateur
+
+Post-conditions : Aucun
+
+COMPLEMENTS
+
+Ergonomie 
+
+L’affichage des produits d’une catégorie devra se faire par groupe de 15 produits. Toutefois, afin d’éviter à l’utilisateur d’avoir à demander trop de pages, il devra être possible de choisir des pages avec 30, 45 ou 60 produits.
+
+Performance attendue 
+
+La recherche des produits, après sélection de la catégorie, doit se faire de façon à afficher la page des produits en moins de 10 secondes.
+
+Problèmes non résolus 
+
+Nous avons fait la description basée sur l’information que les produits appartiennent à une catégorie. Est-ce qu’il existe des sous-catégories ?
+
+Si tel est le cas, la description devra être revue.
+
+Est-ce que la consultation du catalogue doit être possible uniquement par catégorie ou est-ce qu’on doit prévoir d’autres critères de recherche de produits ?
+
+Doit-on prévoir un affichage trié sur des critères choisis par l’utilisateur (par exemple : par tranche de prix, par disponibilité, etc) ?
+
