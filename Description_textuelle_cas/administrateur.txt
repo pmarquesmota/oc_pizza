@@ -20,7 +20,7 @@ Le scénario nominal :
 5. Si l'administrateur clique sur "suivre les commandes en préparation",
    le système affiche la liste des commandes dans l'état "en cours de
    préparation"
-6. Si l'administrateur clique sur "suivre les commandes en livraison",
+6. Si l'administrateur clique sur "suivre les commandes en cours de livraison",
    le système affiche la liste des commandes dans l'état "en cours de
    livraison"
 7. Si l'administrateur clique sur "afficher l'état des stocks", le système

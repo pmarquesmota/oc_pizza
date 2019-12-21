@@ -6,28 +6,28 @@ Description : Le livreur livre les livraisons
 Auteur : Paul Marques Mota
 Date(s) : 7/10/19 (première rédaction)
 
-Pré-conditions : le livreur doit être authentifié 
+Pré-conditions : aucune
 Démarrage : Le livreur consulte la liste des pizzas prêtes
 
 DESCRIPTION
 
 Le scénario nominal :
 
-1. Le système affiche une page contenant la liste des pizzas prêtes
-2. Le livreur sélectionne une des commandes
-3. Le système affiche les informations détaillées de la commandes
-5. Le livreur fait passer la commande dans l'état "en cours de livraison"
-6. Le livreur livre la commande
+1. Le système demande un identifiant et un mot de passe
+2. Le livreur saisit son identifiant et son mot de passe
+3. Le système affiche une page contenant la liste des pizzas prêtes
+4. Le livreur sélectionne une des commandes
+5. Le système affiche les informations détaillées de la commandes
+6. Le livreur fait passer la commande dans l'état "en cours de livraison"
 7. Si le client paie à la livraison, le livreur encaisse le prix de la commande
 8. Le livreur fait passer la commande dans l'état terminée
 
 Les scénarios alternatifs
 
-6.a un accident empêche la livraison
-6.b le client ne peut pas recevoir la commande
+2.a L'identifiant ou le mot de passe ne sont pas bons.
 7.a le client ne paie pas
 
-Fin : Scénario nominal : à l'étape 6, sur décision de l’utilisateur
+Fin : Scénario nominal : à l'étape 2, ou 7, sur décision de l’utilisateur
 
 Post-conditions : la commande est dans l'état terminée
 
