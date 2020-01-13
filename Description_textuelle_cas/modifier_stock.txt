@@ -1,0 +1,29 @@
+Cas n°1
+
+Nom : Modifier le stock (package « Stock »)
+Acteur(s) : administrateur
+Description : L'administrateur modifie le stock
+Auteur : Paul Marques Mota
+Date(s) : 12/01/19 (première rédaction)
+
+Pré-conditions : aucune
+Démarrage : L’administrateur a demandé la page « modifier le stock »
+
+DESCRIPTION
+
+Le scénario nominal :
+
+1. Si l'administrateur clique sur modifier l'état du stock, le système modifie le stock.
+
+Les scénarios alternatifs
+
+1.a L’administrateur décide de quitter la modification.
+
+Fin : Scénario nominal : à l'étape 1 sur décision de l’utilisateur
+
+Post-conditions : le compte de l'utilisateur est créé.
+
+COMPLEMENTS
+
+Aucun
+

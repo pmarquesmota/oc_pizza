@@ -1,0 +1,33 @@
+Cas n°1
+
+Nom : Authentification (package « authentification »)
+Acteur(s) : utilisateur (client, visiteur, administrateur, pizzaiolo, livreur)
+Description : L'utilisateur s'authentifie
+Auteur : Paul Marques Mota
+Date(s) : 12/01/19 (première rédaction)
+
+Pré-conditions : aucune
+Démarrage : L’utilisateur a demandé la page « s'authentifier »
+
+DESCRIPTION
+
+Le scénario nominal :
+
+1. Le système affiche une page qui demande les identifiants.
+2. L’utilisateur saisit ses identifiants.
+3. Le système vérifie les identifiants.
+4. Si les identifiants ne sont pas corrects, le système affiche un message d'erreur :
+   retour à l'étape 1
+
+Les scénarios alternatifs
+
+1.a L’utilisateur décide de quitter l'authentification.
+
+Fin : Scénario nominal : aux étapes 1, 3 sur décision de l’utilisateur
+
+Post-conditions : l'utilisateur est authentifié.
+
+COMPLEMENTS
+
+Aucun
+

@@ -13,42 +13,16 @@ DESCRIPTION
 
 Le scénario nominal :
 
-1. Le système affiche une page contenant la liste des catégories de pizza. 
-2. L’utilisateur sélectionne une des catégories.
-3. Le système recherche les produits qui appartiennent à cette catégorie.
-4. Le système affiche une description et une photo pour chaque pizza trouvée.
-5. L’utilisateur peut sélectionner un pizza parmi celles affichés.
-6. Le système affiche les informations détaillées de la pizza choisie. 
-7. L’utilisateur peut ensuite quitter cette description détaillée.
-8. Le système ajoute la séléction au panier.
-9. Le système affiche le contenu du panier.
-10. Le système demande les identifiants du compte de l'utilisateur
-11. Si l'utilisateur a un compte, il saisit ses identifiants et mot de passe
-12. Si l'utilisateur n'a pas de compte, le système affiche un formulaire
-    qui permet à l'utilisateur de créer un nouveau compte
-13. Si l'utilisateur n'a pas de compte, il saisit les informations pour
-    créer un nouveau compte
-14. Si l'utilisateur n'a pas de compte, le sytème enregistre les informations
-    (retour à l'étape 10)
-14. Le système demande les informations de paiement.
-15. L'utilisateur saisit les informations de paiement.
-16. Le système valide les informations de paiement avec la banque.
+1. Le système affiche le contenu du panier.
+2. Le système demande les informations de paiement.
+3. L'utilisateur saisit les informations de paiement.
+4. Le système valide les informations de paiement avec la banque.
 
 Les scénarios alternatifs
 
-2.a L’utilisateur décide de quitter la consultation de la catégorie de produits choisie. 
-2.b L’utilisateur décide de quitter la consultation du catalogue. 
-5.a L’utilisateur décider de quitter la consultation de la catégorie de produits choisie.
-5.b L’utilisateur décide de quitter la consultation du catalogue.
-7.a L’utilisateur décide de quitter la consultation de la catégorie de produits choisie.
-7.b L’utilisateur décide de quitter la consultation du catalogue.
-8.a L'utilisateur décide d'annuler la commande.
-11.a L'utilisateur décide de quitter l'authentification.
-12.a L'utilisateur décide de quitter la création d'un nouveau compte.
-16.a Les informations de l'utilisateur sont incorrectes.
+3.a L'utilisateur décide d'annuler la commande.
 
-Fin : Scénario nominal : aux étapes 2, 5, 7, 8, 11, 12 ou 16,
-      sur décision de l’utilisateur
+Fin : Scénario nominal : aux étapes 3, 4, sur décision de l’utilisateur
 
 Post-conditions : Une commande est enregistrée dans l'état "début"
 

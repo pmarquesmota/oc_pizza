@@ -13,25 +13,21 @@ DESCRIPTION
 
 Le scénario nominal :
 
-1. Le système affiche une demande de login et mot de passe
-2. Le pizzaiolo remplit ses identifiants
-3. Le système vérifie les identifiants
-4. Si l'utilisateur a commandé, le système enregistre la commande
-5. Le système affiche une page contenant la liste des commandes
-6. Le pizzaiolo sélectionne une des commandes
-7. Le système affiche les informations détaillées de la commandes
-8. Si le pizzaiolo demande la recette d'une pizza le système affiche
+1. Si l'utilisateur a commandé, le système enregistre la commande
+2. Le système affiche une page contenant la liste des commandes
+3. Le pizzaiolo sélectionne une des commandes
+4. Le système affiche les informations détaillées de la commandes
+5. Si le pizzaiolo demande la recette d'une pizza le système affiche
    la recette de la pizza
-9. Le pizzaiolo fait passer la commande dans l'état "en cours de préparation"
-10. Le pizzaiolo prépare la commande
-11. Le pizzaiolo fait passer la commande dans l'état prête
+6. Le pizzaiolo fait passer la commande dans l'état "en cours de préparation"
+7. Le pizzaiolo prépare la commande
+8. Le pizzaiolo fait passer la commande dans l'état prête
 
 Les scénarios alternatifs
 
-2.a Les identifiants sont incorrects
-6.a Le pizzaiolo décide de quitter l'affichage de la liste des commandes
+3.a Le pizzaiolo décide de quitter l'affichage de la liste des commandes
 
-Fin : Scénario nominal : aux étapes 4, 11, sur décision de l’utilisateur
+Fin : Scénario nominal : à l'étape 8, sur décision de l’utilisateur
 
 Post-conditions : la commande est dans l'état prête
 

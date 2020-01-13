@@ -1,0 +1,29 @@
+Cas n°1
+
+Nom : Visualiser les stocks (package « stocks »)
+Acteur(s) : Administrateur
+Description : L'administrateur selectionne un ou pusieurs produits
+Auteur : Paul Marques Mota
+Date(s) : 12/01/19 (première rédaction)
+
+Pré-conditions : L'administrateur est authentifié
+Démarrage : L'utilisateur clique sur "voir les stocks"
+
+DESCRIPTION
+
+Le scénario nominal :
+
+1. Si l'administrateur clique sur "afficher l'état des stocks", le système affiche
+   l'état des stocks
+
+Les scénarios alternatifs
+
+1.a L'administrateur quitte la selection
+
+Fin : Scénario nominal : à l'étape 1, sur décision de l’administrateur
+
+Post-conditions : la commande est dans l'état prête
+
+COMPLEMENTS
+
+Aucun

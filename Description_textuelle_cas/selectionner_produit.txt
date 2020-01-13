@@ -1,0 +1,31 @@
+Cas n°1
+
+Nom : Séléctionner un ou plusieurs produits (package « commandes »)
+Acteur(s) : Utilisateur (visiteur ou client) 
+Description : L'utilisateur selectionne un ou pusieurs produits
+Auteur : Paul Marques Mota
+Date(s) : 12/01/19 (première rédaction)
+
+Pré-conditions : L'utilisateur est authentifié
+Démarrage : L'utilisateur clique sur "selectionner"
+
+DESCRIPTION
+
+Le scénario nominal :
+
+1. L'utilisateur selectionne une pizza.
+2. Le système affiche les informations détaillées de la pizza.
+3. L'utilisateur quitte la description.
+4. Le système ajoute la selection au panier.
+
+Les scénarios alternatifs
+
+1.a L'utilisateur quitte la selection
+
+Fin : Scénario nominal : à l'étape 4, sur décision de l’utilisateur
+
+Post-conditions : la commande est dans l'état prête
+
+COMPLEMENTS
+
+Aucun

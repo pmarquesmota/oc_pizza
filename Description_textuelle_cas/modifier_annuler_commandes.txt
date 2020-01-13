@@ -13,23 +13,19 @@ DESCRIPTION
 
 Le scénario nominal :
 
-1. Le système demande les identifiants de l'utilisateur
-2. L'utilisateur saisit ses identifiants
-3. Le système vérifie les identifiants saisis
-4. Le système affiche une page contenant la liste des commandes
-5. L’utilisateur sélectionne une commande
-6. Si l'utilisateur clique sur annuler, le système demande confirmation
-7. Si l'utilisateur a annulé la commande, le système annule la commande.
-8. Si l'utilisateur clique sur modifier, le système demande confirmation
-9. Le système affiche le formulaire de modification
-10. L'utilisateur modifie un ou plusieurs éléments de la commande.
-11. Le système enregistre les modifications.
+1. Le système affiche une page contenant la liste des commandes
+2. L’utilisateur sélectionne une commande
+3. Si l'utilisateur clique sur annuler, le système demande confirmation
+4. Si l'utilisateur a annulé la commande, le système annule la commande.
+5. Si l'utilisateur clique sur modifier, le système demande confirmation
+6. Le système affiche le formulaire de modification
+7. L'utilisateur modifie un ou plusieurs éléments de la commande.
+8. Le système enregistre les modifications.
 
 Les scénarios alternatifs
 
-1.a L’utilisateur décide de quitter la page d'authentification
-3.a Les identifiant et mot de passe sont invalides
-6.a L'utilisateur décide d'annuler l'annulation de la commande.
+2.a L'utilisateur quitte la selection de la commande.
+4.a L'utilisateur décide d'annuler l'annulation de la commande.
 8.a L'utilisateur décide d'annuler la modification de la commande
 
 Fin : Scénario nominal : aux étapes 1, 3, 6 ou 8, sur décision de l’utilisateur

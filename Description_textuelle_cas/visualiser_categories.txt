@@ -1,0 +1,31 @@
+Cas n°1
+
+Nom : Visualiser les catégories (package « commandes »)
+Acteur(s) : Utilisateur (visiteur ou client) 
+Description : L'utilisateur visualise les catégories
+Auteur : Paul Marques Mota
+Date(s) : 12/01/19 (première rédaction)
+
+Pré-conditions : aucune.
+Démarrage : L'utilisateur clique sur "visualiser"
+
+DESCRIPTION
+
+Le scénario nominal :
+
+1. Le système affiche les catégories de pizza.
+2. L'utilisateur séléctionne une catégorie.
+3. Le système cherche les produits aui appartiennent à la catégorie.
+4. Le système affiche une description et une photo pour chaque pizza trouvée.
+
+Les scénarios alternatifs
+
+2.a L'utilisateur quitte la selection
+
+Fin : Scénario nominal : à l'étape 4, sur décision de l’utilisateur
+
+Post-conditions : aucune
+
+COMPLEMENTS
+
+Aucun

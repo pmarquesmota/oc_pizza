@@ -23,15 +23,13 @@ Le scénario nominal :
 6. Si l'administrateur clique sur "suivre les commandes en cours de livraison",
    le système affiche la liste des commandes dans l'état "en cours de
    livraison"
-7. Si l'administrateur clique sur "afficher l'état des stocks", le système
-   affiche l'état des stocks
 
 Les scénarios alternatifs
 
 2.a l'administrateur a oublié ses identifiants
 3.a les identifiants sont incorrects
 
-Fin : Scénario nominal : à l'étape 4, 5, 6, 7, sur décision de l’utilisateur
+Fin : Scénario nominal : à l'étape 4, 5, 6, sur décision de l’utilisateur
 
 Post-conditions : l'administrateur est connécté
 
